@@ -1,0 +1,6 @@
+### Test de requête HTTP GET ###
+GET http://localhost:8080/hello
+Content-Type: application/json
+
+### Test de requête HTTP POST ###
+
