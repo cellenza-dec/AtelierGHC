@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-//Ajoutez une route qui renvoie "Hello World!" à la racine de votre serveur
+// Add an Endpoint Hello wich return Hello World ! 
 
 
 

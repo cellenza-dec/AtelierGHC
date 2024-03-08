@@ -1,0 +1,18 @@
+GET http://localhost:5022/Hello
+
+###
+#
+GET http://localhost:5022/daysbetweendates?startDate=2020-01-01&enddate=2020-01-10
+
+###
+GET http://localhost:5022/validateemail?email=test@example.com
+
+
+###
+Get http://localhost:5022/openid
+
+###
+Get http://localhost:5022/files
+
+
+

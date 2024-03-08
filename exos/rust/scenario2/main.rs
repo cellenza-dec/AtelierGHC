@@ -1,9 +1,7 @@
 use actix_web::{get, App, HttpResponse, HttpServer, Responder};
 
-#[get("/hello")]
-async fn hello() -> impl Responder {
-    HttpResponse::Ok().body("Hello, World! (in rust)")
-}
+// Add an Endpoint Hello wich return Hello World ! 
+
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

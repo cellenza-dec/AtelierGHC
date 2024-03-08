@@ -9,7 +9,7 @@ import (
 
 func main() {
 	router := gin.Default()
-	// Ajoutez un endpoint Hello World à votre API web
+	// Add an Endpoint Hello wich return Hello World ! 
 
 	router.Run(":8080")
 }

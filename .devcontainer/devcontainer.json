@@ -5,35 +5,35 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
 	"features": {
-		// "ghcr.io/devcontainers/features/node:1": {
-		// 	"nodeGypDependencies": true,
-		// 	"version": "lts"
-		// },
-		// "ghcr.io/devcontainers-contrib/features/mocha:2": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/docker-in-docker:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/java:1": {
-		// 	"version": "latest",
-		// 	"installMaven": true
-		// },
-		// "ghcr.io/devcontainers/features/python:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/go:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/ruby:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/rust:1": {
-		// 	"version": "latest"
-		// },
-		// "ghcr.io/devcontainers/features/php:1.1.2": {
-		// 	"version": "latest"
-		// }
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "lts"
+		},
+		"ghcr.io/devcontainers-contrib/features/mocha:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "latest",
+			"installMaven": true
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/go:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/ruby:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/php:1.1.2": {
+			"version": "latest"
+		}
 		//,
 		// "ghcr.io/devcontainers/features/kubectl-helm-minikube:1.1.7": {
 		// 	"version": "latest"

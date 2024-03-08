@@ -17,7 +17,7 @@ public class MainApplication {
 @RestController
 class HelloController {
 
-   // Ajoutez une méthode qui retourne "Hello World" 
+   // Add an Endpoint Hello wich return Hello World ! 
     
 }
 
