@@ -12,14 +12,6 @@ GET http://localhost:5022/validateemail?email=test@example.com
 Get http://localhost:5022/openid
 
 ###
-get http://localhost:5022/countries
-
-
-
-###
-get http://localhost:5022/memoryusage
-
-###
 Get http://localhost:5022/files
 
 
