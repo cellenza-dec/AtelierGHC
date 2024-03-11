@@ -83,3 +83,6 @@ app.MapGet("/memoryusage", () =>
 
 app.Run();
 
+
+public partial class Program {}
+    
