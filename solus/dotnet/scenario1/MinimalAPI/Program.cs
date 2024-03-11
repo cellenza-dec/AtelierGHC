@@ -82,7 +82,7 @@ app.MapGet("/parseurl", (string url) =>
     var queryString = uri.Query;
     var hash = uri.Fragment;
 
-    return host;
+    return JsonSerializer.Serialize(new { protocol, host, port, queryString, hash });
 });
 
 /// <summary>
@@ -129,7 +129,23 @@ app.MapGet("/memoryusage", () =>
     return (memoryUsage / (1024 * 1024 * 1024)).ToString();
 });
 
+
+
+//
+
+
+app.MapGet("/parallelloop", (int iteration) =>
+{
+    int i = 0;
+    Parallel.For(0, iteration, (_) =>
+    {
+        Interlocked.Increment(ref i);
+    });
+    return i.ToString();
+});
+
+
 app.Run();
 
-public partial class Program {}
+public partial class Program { }
     

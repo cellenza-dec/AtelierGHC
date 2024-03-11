@@ -14,6 +14,18 @@ var app = builder.Build();
 
 // Ask to Copilot to add /hello EndPoint
 
+
+
+// Bugy code to fix
+app.MapGet("/parallelloop", (int iteration) =>
+{
+    int i=0;
+    Parallel.For(0, iteration, i =>
+    {
+        i=i+1;
+    });
+    return i.ToString();    
+});
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

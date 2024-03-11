@@ -11,8 +11,16 @@ GET http://localhost:5022/validateemail?email=test@example.com
 ###
 Get http://localhost:5022/openid
 
+
 ###
-get http://localhost:5022/countries
+get http://localhost:5022/parseurl?url=https://www.google.com?param=param1
+
+###
+Get http://localhost:5022/joke
+
+
+###
+get http://localhost:5022/randomeuropeancountry
 
 
 
@@ -23,4 +31,5 @@ get http://localhost:5022/memoryusage
 Get http://localhost:5022/files
 
 
-
+###
+Get http://localhost:5022/parallelloop?iteration=002
